@@ -34,7 +34,7 @@ class _StoryPageState extends State<StoryPage> {
           ),
         ),
         padding: EdgeInsets.symmetric(vertical: 50, horizontal: 15),
-        //constraints: BoxConstraints.expand(),
+        constraints: BoxConstraints.expand(),
         child: SafeArea(
             child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -64,7 +64,7 @@ class _StoryPageState extends State<StoryPage> {
                   child: Text(
                     ob.getChoice1(),
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 18,
                     ),
                   ),
                 ),
@@ -85,7 +85,7 @@ class _StoryPageState extends State<StoryPage> {
                 child: Text(
                   ob.getChoice2(),
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 18,
                   ),
                 ),
               ),
